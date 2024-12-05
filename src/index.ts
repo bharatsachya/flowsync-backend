@@ -17,4 +17,4 @@ app.use("/api/v1/trigger", triggerRouter);
 
 app.use("/api/v1/action", actionRouter);
 
-app.listen(3003);
+app.listen(process.env.PORT || 4000);
